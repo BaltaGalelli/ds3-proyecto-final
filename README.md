@@ -1,8 +1,6 @@
-# Clasificación de consultas bancarias — Proyecto Final DS III
+# Clasificación de consultas bancarias
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BaltaGalelli/ds3-proyecto-final/blob/main/notebooks/01_pipeline_base.ipynb)
-
-**Data Science III — NLP & Deep Learning (Coderhouse)** · **Autor:** Baltasar Santiago Galelli
 
 ## El problema
 
@@ -10,7 +8,7 @@ Un banco recibe miles de consultas de clientes por día ("mi tarjeta no llegó",
 
 **Dataset:** [Banking77](data/README.md): 13.083 consultas reales de clientes de un banco (en inglés), con 77 motivos. Licencia CC BY 4.0.
 
-## Pre-entrega 1: pipeline de entrenamiento, validación y clasificador base
+## Pre-entrega: pipeline de entrenamiento, validación y clasificador base
 
 Esta entrega construye la **infraestructura** del proyecto: un pipeline reproducible en PyTorch con detección automática del dispositivo, ciclo de entrenamiento explícito, validación por época, métricas y early stopping. El modelo es simple a propósito: texto en **TF-IDF** y un **MLP**. Es la vara contra la que se van a comparar las *embeddings* y los Transformers de las próximas entregas.
 
