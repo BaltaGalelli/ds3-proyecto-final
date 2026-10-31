@@ -1,0 +1,10 @@
+# Versiones exactas con las que se ejecutó y verificó el pipeline.
+# En Google Colab no hace falta instalar nada: ya trae estas librerías.
+torch==2.14.1
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.9
+# Para correr el notebook y los tests en local
+jupyterlab
+pytest
